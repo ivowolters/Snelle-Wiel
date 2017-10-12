@@ -20,7 +20,6 @@ include BaseClass::$oVariables->sIncFolder . "header_inc.php";
         </div>
     </div>
 </div>
-asokighnoaiersdgoieag
 <?php
 include BaseClass::$oVariables->sIncFolder . "footer_inc.php";
 ?>
