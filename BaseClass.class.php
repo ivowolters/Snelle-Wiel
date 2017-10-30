@@ -6,14 +6,12 @@ class BaseClass {
     public static $oMenu;
 
 	function __construct () {
-		self::$oVariables = new Variables();
+		self::$oVariables = new Variable();
         self::$oTemplate = new Template();
         self::$oHeader = new Header();
         self::$oMenu = new Menu();
 
         $this->getObject(self::$oVariables->aExtentions[0]);
-
-        BaseClass::$oTemplate->show();
 	}
 
 	function getObject($str){

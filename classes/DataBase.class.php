@@ -14,9 +14,9 @@ class DataBase {
 	
 	function startConn() {
 		$this->sHostname = "localhost";
-		$this->sUsername = "pensioen_amkleding";
-		$this->sPassword = "Sp@HuhEd7#w2";
-		$this->sDbName = "pensioen_amkleding";
+		$this->sUsername = "pensioen_snelle-wiel";
+		$this->sPassword = "bYRSVELBf5";
+		$this->sDbName = "pensioen_snellewiel";
 		$this->sConn = mysqli_connect($this->sHostname, $this->sUsername, $this->sPassword, $this->sDbName);
 		if ($this->sConn->connect_error) {
 			die("Connection failed: " . $this->sConn->connect_error);
@@ -31,6 +31,10 @@ class DataBase {
 		$this->sResult = mysqli_query($this->sConn, $this->sQuery);
 	}
 
+    function showQuery(){
+	    echo $this->sQuery;
+    }
+
 	function getResult() {
 		return $this->sResult;
 	}
@@ -43,7 +47,7 @@ class DataBase {
         $this->sConn->error;
     }
 
-	function __destruct() {
-		$this->sConn->close();
-	}
+    function closeConn(){
+        $this->sConn->close();
+    }
 }

@@ -1,5 +1,5 @@
 <?php
-class Variables {
+class Variable {
 	public $sIpAddress;
 	public $sDomainOnly;
 	public $sCurrentUrl;

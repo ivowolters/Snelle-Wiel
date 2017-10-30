@@ -18,6 +18,8 @@ class Menu
     function setMenu(){
         $this->addItem("Planning", "", 1, false);
         $this->addItem("Chauffeurs", "chauffeurs", 1, true);
+        $this->addItem("Wagens", "wagens", 1, true);
+        $this->addItem("Facturering", "facturering.php", 1, true);
     }
 
     function addItem($name, $link, $auth, $dialog){
@@ -30,7 +32,6 @@ class Menu
     }
 
     function show(){
-
         foreach($this->aMenuItems as $key => $value){
             include BaseClass::$oVariables->sMarkupFolder . "menu_item.php";
         }
