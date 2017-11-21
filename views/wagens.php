@@ -5,4 +5,4 @@ $voertuigen = new Voertuig();
 $voertuigen->getVoertuigList();
 
 
-include BaseClass::$oVariables->sIncFolder . "footer_inc.php";
+include BaseClass::$oVariables->sIncFolder . "end_inc.php";

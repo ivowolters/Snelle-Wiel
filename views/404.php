@@ -21,5 +21,5 @@ include BaseClass::$oVariables->sIncFolder . "header_inc.php";
     </div>
 </div>
 <?php
-include BaseClass::$oVariables->sIncFolder . "footer_inc.php";
+include BaseClass::$oVariables->sIncFolder . "end_inc.php";
 ?>

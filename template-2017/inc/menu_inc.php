@@ -6,14 +6,6 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
             <?php BaseClass::$oMenu->show();?>
-            <li class="nav-item>
-                <a class="nav-link">
-                Uitloggen
-                </a>
-            </li>
         </ul>
-    </div>
-    <div class="pull-right">
-        asdfasdf
     </div>
 </nav>

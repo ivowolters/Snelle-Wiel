@@ -31,4 +31,4 @@ if(!isset($_SESSION["login"]["valid"])) {
 } else {
     echo "u bent al ingelogd";
 }
-include BaseClass::$oVariables->sIncFolder . "footer_inc.php";
+include BaseClass::$oVariables->sIncFolder . "end_inc.php";
