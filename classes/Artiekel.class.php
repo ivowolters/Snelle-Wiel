@@ -17,7 +17,7 @@ class Artiekel
 
     }
 
-    function getProductDate($id){
+    function getProductData($id){
 
     }
 

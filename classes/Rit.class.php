@@ -16,5 +16,7 @@ class Rit
 
     }
 
+    function getRitInfo(){
 
+    }
 }

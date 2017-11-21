@@ -11,7 +11,12 @@ class BaseClass {
         self::$oHeader = new Header();
         self::$oMenu = new Menu();
 
-        $this->getObject(self::$oVariables->aExtentions[0]);
+
+        if(isset($_SESSION["login"]["valid"])){
+            $this->getObject(self::$oVariables->aExtentions[0]);
+        } else {
+            $this->getObject("login");
+        }
 	}
 
 	function getObject($str){
