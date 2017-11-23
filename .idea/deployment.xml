@@ -19,7 +19,7 @@
       <paths name="Webhostnow">
         <serverdata>
           <mappings>
-            <mapping deploy="/webdesignwolters.nl/public_html/snelle-wiel" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/webdesignwolters.nl/public_html/snelle-wiel/admin" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
